@@ -4,10 +4,10 @@
     <!-- Toastr -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
-    <div class="container mx-auto p-6 mb-20">
+    <div class="container mx-auto pt-2 pb-20">
         <div class="mx-auto mt-10  max-w-2xl">
             <div class="bg-white shadow rounded-lg">
-                <div class="bg-pink-600 p-4 rounded-t-lg">
+                <div class="bg-pink-600 p-2 rounded-t-lg">
                     <h3 class="text-white font-semibold">Edit Post</h3>
                 </div>
                 <div class="p-4">

@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('main')
-    <div class="container mx-auto p-6">
-        <div class="mx-auto mt-10 max-w-2xl">
+    <div class="container mx-auto pt-12 pb-20">
+        <div class="mx-auto max-w-2xl">
             <div class="bg-white shadow rounded-lg">
                 <div class="bg-pink-600 p-2 rounded-t-lg">
                     <h3 class="text-white font-semibold">Edit Your Profile</h3>

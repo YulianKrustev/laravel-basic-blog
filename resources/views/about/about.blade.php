@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('main')
-    <div class="flex justify-center w-full mt-8 mb-20">
+    <div class="flex justify-center w-full mt-12 mb-20">
 
         <div class="max-w-2xl rounded overflow-hidden shadow-lg">
             <div class="bg-pink-600 p-2 rounded-t-lg">

@@ -2,7 +2,7 @@
 
 @section('main')
     <div class="container mx-auto p-6">
-        <div class="mx-auto mt-10  max-w-2xl">
+        <div class="mx-auto mt-6  max-w-2xl">
             <div class="bg-white shadow rounded-lg">
                 <div class="bg-pink-600 p-2 rounded-t-lg">
                     <h2 class="text-white font-semibold">Contacts</h2>
@@ -53,8 +53,8 @@
                         </div>
                         <div class="mt-4 text-center">
                             <button type="submit"
-                                class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
-                                Submit
+                                class="bg-green-500 hover:bg-green-700 text-white font-bold text-base px-3 py-1 mb-1 rounded inline-block">
+                                Send
                             </button>
                         </div>
                     </form>

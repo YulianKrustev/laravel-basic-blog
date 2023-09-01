@@ -10,7 +10,7 @@
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-3/5 m-auto pb-20 text-base font-medium">
         @foreach ($posts as $post)
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden ">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
                 <a href="{{ route('post.details', ['id' => $post->id]) }}">
                     <h2 class="text-lg font-medium py-1 ml-4">{{ $post->title }}</h2>
                     <img src="{{ $post->image }}" alt="{{ $post->title }}" class="object-cover mx-auto block">

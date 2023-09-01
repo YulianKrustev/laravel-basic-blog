@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('main')
-    <div class="flex justify-center w-full mt-8 mb-20">
+    <div class="flex justify-center w-full mt-8 pt-4 pb-20 ">
         <div class="max-w-xl rounded overflow-hidden shadow-lg">
             <div class="bg-pink-600 p-2 rounded-t-lg">
                 <div class="flex justify-between">
@@ -77,9 +77,9 @@
                 @endauth
                 <!-- List comments -->
                 @foreach ($post->comments as $comment)
-                    <div class="mt-4">
+                    <div class="mt-4 ">
                         <strong>{{ $comment->user->name }}:</strong>
-                        <p>{{ $comment->content }}</p>
+                        <p class="border-2 bg-slate-50 rounded-md py-1">{{ $comment->content }}</p>
                     </div>
                     <hr>
                 @endforeach

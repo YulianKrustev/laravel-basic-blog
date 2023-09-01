@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('main')
-    <div class="container mx-auto p-6 mb-20">
+    <div class="container mx-auto p-2 mb-20">
         <div class="mx-auto mt-10  max-w-2xl">
             <div class="bg-white shadow rounded-lg">
                 <div class="bg-pink-600 p-2 rounded-t-lg">
