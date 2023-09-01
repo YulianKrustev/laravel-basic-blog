@@ -32,7 +32,7 @@
                                         onclick="window.location='{{ route('post.details', ['id' => $post->id]) }}';">
                                         <th scope="row"
                                             class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                            <img src="{{ $post->image }}" alt="{{ $post->title }}" class="w-36 h-32">
+                                            <img src="{{ $post->image }}" alt="{{ $post->title }}" class="w-96 h-28">
                                         </th>
                                         <td class="px-6 py-4">
                                             {{ $post->title }}
